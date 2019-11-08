@@ -1,0 +1,17 @@
+package com.bridgelabz.iocDI;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main {
+
+	public static void main(String[] args)  {
+		
+	ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
+	Triangle t= (Triangle)context.getBean("triangle");
+	t.show();
+	
+		
+	}
+
+}

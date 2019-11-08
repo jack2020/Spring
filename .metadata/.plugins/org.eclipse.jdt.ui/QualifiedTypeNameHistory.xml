@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.bridgelabz.ioc.Sim"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.iocdemo.Vodafone"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.iocDI.MathCheat"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.iocDI.Student"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.iocDI.Triangle"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,9 @@
+package com.bridgelabz.iocDI;
+
+public class ControllerExam {
+
+	public static void main(String[] args) {
+		Student student = new Student();
+		student.studentName = "Mangesh";
+	}
+}

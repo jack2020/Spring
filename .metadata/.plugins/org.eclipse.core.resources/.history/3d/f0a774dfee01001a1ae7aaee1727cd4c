@@ -1,0 +1,6 @@
+package com.bridgelabz.iocDI;
+
+public class Triangle {
+
+	List<Point> points;
+}

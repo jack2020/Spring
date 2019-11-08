@@ -1,0 +1,9 @@
+package com.bridgelabz.iocDI;
+
+public class Point {
+
+	public void mathCheat()
+	{
+		System.out.println("Cheating started");
+	}
+}

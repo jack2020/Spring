@@ -1,0 +1,19 @@
+package com.bridgelabz.iocDI;
+
+public class Student {
+	
+	private String studentName ;
+ 
+	public void displayName()
+	{
+		System.out.println("Student Name "+ getStudentName());
+	}
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+}

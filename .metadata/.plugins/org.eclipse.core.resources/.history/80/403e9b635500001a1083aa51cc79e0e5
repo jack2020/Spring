@@ -1,0 +1,27 @@
+package com.bridgelabz.iocDI;
+
+public class Student {
+	
+	private int id;
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	private String studentName ;
+ 
+	public void displayName()
+	{
+		System.out.println("Student Name "+ getStudentName());
+	}
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+}

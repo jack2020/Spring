@@ -1,0 +1,24 @@
+package com.bridgelabz.iocdemo;
+
+public class Airtel implements Sim {
+
+	
+	public Airtel() {
+		System.out.println("Airtel Construct Called");
+		
+	}
+
+	@Override
+	public void calling() {
+		System.out.println("AIrtel Calling");
+		
+	}
+
+	@Override
+	public void data() {
+		System.out.println("Airtel Data");
+		
+	}
+
+	
+}

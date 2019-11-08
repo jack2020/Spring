@@ -1,0 +1,48 @@
+package com.bridgelabz.autowiringbyname;
+
+public class Employee {
+
+	private int id;
+	private String name;
+	private Address address2;
+	/**
+	 * @return the id
+	 */
+	public int getId() {
+		return id;
+	}
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(int id) {
+		this.id = id;
+	}
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+	/**
+	 * @return the address
+	 */
+	public Address getAddress2() {
+		return address2;
+	}
+	/**
+	 * @param address the address to set
+	 */
+	public void setAddress2(Address address2) {
+		this.address2 = address2;
+	}
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", address2=" + address2 + "]";
+	}
+}

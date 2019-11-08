@@ -1,0 +1,10 @@
+package com.bridgelabz.iocDI;
+
+public class Student {
+
+	MathCheat cheat;
+	public void cheating()
+	{
+		cheat.mathCheat();
+	}
+}

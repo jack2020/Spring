@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="point" class="com.bridgelabz.iocDI.Point">
+<property name="x" value="0"></property>
+<property name="y" value="20"></property>
+</bean>
+
+<bean id="point2" class="com.bridgelabz.iocDI.Point">
+<property name="x" value="-20"></property>
+<property name="y" value="0"></property>
+</bean>
+
+<bean id="point3" class="com.bridgelabz.iocDI.Point">
+<property name="x" value="-30"></property>
+<property name="y" value="0"></property>
+</bean>
+
+<bean id="triangle" class ="com.bridgelabz.iocDI.Triangle">
+   <property name="points">
+      <list>
+         <ref bean="point1"></ref>
+         <ref bean="point2"></ref>
+         <ref bean="point3"></ref>
+ 
+      </list>
+   </property>
+ </bean>
+
+</beans>

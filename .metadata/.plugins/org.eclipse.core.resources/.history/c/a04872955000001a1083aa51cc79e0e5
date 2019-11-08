@@ -1,0 +1,7 @@
+package com.bridgelabz.iocDI;
+
+public class Student {
+	
+	String studentName ;
+
+}
